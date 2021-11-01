@@ -60,8 +60,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 240,
-        "y": 340,
+        "x": 160,
+        "y": 320,
         "wires": [
             [
                 "c656aba7.944288"
@@ -75,8 +75,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 580,
-        "y": 340,
+        "x": 500,
+        "y": 320,
         "wires": []
     },
     {
@@ -98,12 +98,67 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
-        "y": 340,
+        "x": 330,
+        "y": 320,
         "wires": [
             [
                 "c2380ca8.0463"
             ]
         ]
+    },
+    {
+        "id": "77940d305fd3ba52",
+        "type": "http response",
+        "z": "3af82246.3634ae",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 557,
+        "y": 361,
+        "wires": []
+    },
+    {
+        "id": "ab9d86617097e33f",
+        "type": "http response",
+        "z": "3af82246.3634ae",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 557,
+        "y": 361,
+        "wires": []
+    },
+    {
+        "id": "d59f14a101f60916",
+        "type": "http response",
+        "z": "3af82246.3634ae",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 557,
+        "y": 361,
+        "wires": []
+    },
+    {
+        "id": "150fdd9551bc428a",
+        "type": "http response",
+        "z": "3af82246.3634ae",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 550,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "20e8133f60084733",
+        "type": "http response",
+        "z": "3af82246.3634ae",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 300,
+        "wires": []
     }
 ]
